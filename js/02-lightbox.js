@@ -15,5 +15,7 @@ for (let obj of galleryItems) {
 gallery.insertAdjacentHTML("beforeend", itemsPhoto);
 
 var lightbox = new SimpleLightbox(".gallery a", {
-  /* options */
+  captionsData: "atl",
+  captionDelay: 250,
+  captionPosition: "bottom",
 });
